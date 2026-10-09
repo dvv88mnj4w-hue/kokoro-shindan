@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>ココロ診断アプリ</title>
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="icon-192.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="ココロ診断">
+<meta name="theme-color" content="#fffaf5">
 <style>
 :root{--bg:#fffaf5;--card:#fff;--text:#3a3340;--sub:#7b7382;--line:#f7ebe8;--accent:#ffb8cb;--sel:#fff4f7;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#2a2530;--card:#372f3e;--text:#f5eef8;--sub:#c3b8cb;--line:#4d4257;--sel:#4a3a48}}
@@ -36,6 +41,7 @@ button{font:inherit;color:inherit;cursor:pointer}
 .tp h3{margin:0 0 4px}.tp p{margin:4px 0}.tp ul{margin:2px 0 8px;padding-left:20px;font-size:14px}
 .note{font-size:11px;color:var(--sub);margin-top:24px}
 .screen{display:none}.screen.show{display:block}
+#s-top.show{display:flex;flex-direction:column;justify-content:center;min-height:calc(100vh - 80px);min-height:calc(100svh - 80px)}
 .q{display:block;min-height:64px;font-size:18px;line-height:1.6;text-align:center;margin:4px 0 14px}
 .opt{padding:13px 14px;margin-bottom:9px;font-size:16px;line-height:1.55}
 .opt .lab{display:block;font-size:12px;font-weight:700;margin-bottom:2px}
